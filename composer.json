@@ -1,6 +1,6 @@
 {
     "name": "mvpdesign/wordpress",
-    "description": "WordPress build composer install",
+    "description": "WordPress install via composer",
     "authors": [
         {
             "name": "Brock Riemenschneider",
