@@ -34,5 +34,9 @@
         "php": ">=5.3.0",
         "wordpress": "4.0",
         "fancyguy/webroot-installer": "1.0.0"
+    },
+    "extra": {
+        "webroot-dir": "wp",
+        "webroot-package": "wordpress"
     }
 }
