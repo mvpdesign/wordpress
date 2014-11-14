@@ -1,13 +1,12 @@
+# Wordpress
+public/wp
+
 # OSX
 .DS_Store
 
 # IDE
 .idea
 
-# Composer
-vendor/
-composer.lock
-
-# Wordpress
-wordpress
-wp-content
+# Vendor (e.g. Composer)
+vendor/*
+!vendor/.gitkeep
