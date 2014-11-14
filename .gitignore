@@ -18,6 +18,11 @@ public/wp-content/uploads/
 !public/wp-content/uploads/.gitkeep
 public/wp-content/wp-cache-config.php
 
+# Dotenv
+.env
+.env.*
+!.env.example
+
 # OSX
 .DS_Store
 
