@@ -1,4 +1,5 @@
 # WordPress
+config/wordpress.yml
 public/wp/*
 !public/wp/.gitkeep
 public/*.log
