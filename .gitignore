@@ -1,10 +1,13 @@
 # OSX
 .DS_Store
 
+# IDE
+.idea
+
 # Composer
 vendor/
 composer.lock
 
 # Wordpress
-wp
+wordpress
 wp-content

@@ -1,14 +1,14 @@
 {
     "name": "mvpdesign/wordpress",
     "description": "WordPress install via composer",
+    "license": "GPLv2",
+    "type": "project",
     "authors": [
         {
             "name": "Brock Riemenschneider",
             "email": "brock@mvpdesign.com"
         }
     ],
-    "license": "GPLv2",
-    "type": "project",
     "repositories": [
         {
             "type": "composer",
@@ -36,7 +36,7 @@
         "fancyguy/webroot-installer": "1.0.0"
     },
     "extra": {
-        "webroot-dir": "wp",
+        "webroot-dir": "wordpress",
         "webroot-package": "wordpress"
     }
 }
