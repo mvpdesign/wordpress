@@ -1,5 +1,21 @@
-# Wordpress
+# WordPress
 public/wp
+public/.htaccess
+public/sitemap.xml
+public/sitemap.xml.gz
+public/wp-content/advanced-cache.php
+public/wp-content/backup-db/
+public/wp-content/backups/
+public/wp-content/blogs.dir/
+public/wp-content/cache/
+public/wp-content/mu-plugins/*
+!public/wp-content/mu-plugins/.gitkeep
+public/wp-content/plugins/*
+!public/wp-content/plugins/.gitkeep
+public/wp-content/upgrade/
+public/wp-content/uploads/
+!public/wp-content/uploads/.gitkeep
+public/wp-content/wp-cache-config.php
 
 # OSX
 .DS_Store
