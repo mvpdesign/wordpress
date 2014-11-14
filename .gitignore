@@ -1,5 +1,6 @@
 # WordPress
-public/wp
+public/wp/*
+!public/wp/.gitkeep
 public/.htaccess
 public/sitemap.xml
 public/sitemap.xml.gz
