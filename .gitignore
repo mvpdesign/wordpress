@@ -26,3 +26,4 @@ public/wp-content/wp-cache-config.php
 # Vendor (e.g. Composer)
 vendor/*
 !vendor/.gitkeep
+composer.lock
