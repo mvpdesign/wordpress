@@ -1,4 +1,4 @@
-wordpress
+WordPress
 =========
 
-WordPress install via composer
+WordPress magic stack
