@@ -52,7 +52,7 @@
         "mvpdesign/wordpress-installer": "dev-master"
     },
     "scripts": {
-        "post-root-package-install": ["MVPDesign\\WordpressInstaller\\Installer::run"]
+        "post-root-package-install": ["MVPDesign\\WordpressInstaller\\Magic::happens"]
     },
     "extra": {
         "installer-paths": {
