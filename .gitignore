@@ -1,6 +1,5 @@
 # WordPress
 public/wp/*
-!public/wp/.gitkeep
 public/*.log
 public/.htaccess
 public/sitemap.xml
@@ -11,12 +10,12 @@ public/wp-content/backups/
 public/wp-content/blogs.dir/
 public/wp-content/cache/
 public/wp-content/mu-plugins/*
-!public/wp-content/mu-plugins/.gitkeep
+!public/wp-content/mu-plugins/index.php
 public/wp-content/plugins/*
-!public/wp-content/plugins/.gitkeep
+!public/wp-content/plugins/index.php
 public/wp-content/upgrade/
 public/wp-content/uploads/
-!public/wp-content/uploads/.gitkeep
+!public/wp-content/uploads/index.php
 public/wp-content/wp-cache-config.php
 
 # Dotenv
@@ -32,5 +31,4 @@ public/wp-content/wp-cache-config.php
 
 # Vendor (e.g. Composer)
 vendor/*
-!vendor/.gitkeep
 composer.lock
