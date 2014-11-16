@@ -1,7 +1,6 @@
 # WordPress
 public/wp/*
 public/*.log
-public/.htaccess
 public/sitemap.xml
 public/sitemap.xml.gz
 public/wp-content/advanced-cache.php
