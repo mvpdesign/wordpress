@@ -9,7 +9,12 @@ if (file_exists($root_dir . '/.env')) {
     Dotenv::load($root_dir);
 }
 
-Dotenv::required(array('DB_NAME', 'DB_USER', 'DB_PASSWORD', 'WP_HOME', 'WP_SITEURL'));
+try {
+    Dotenv::required(array('DB_NAME', 'DB_USER', 'DB_PASSWORD', 'WP_HOME', 'WP_SITEURL'));
+} catch (RuntimeException $e) {
+    echo $e->getMessage();
+    exit;
+}
 
 /**
  * Set up our global environment constant and load its config first

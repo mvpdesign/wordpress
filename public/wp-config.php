@@ -4,6 +4,15 @@
  * This file is required in the root directory so WordPress can find it.
  * WP is hardcoded to look in its own directory or one directory up for wp-config.php.
  */
-require_once(dirname(__DIR__) . '/vendor/autoload.php');
+try {
+    if (!file_exists(dirname(__DIR__) . '/vendor/autoload.php')) {
+        throw new Exception ('Composer needs to be installed: Run "composer install"');
+    } else {
+        require_once(dirname(__DIR__) . '/vendor/autoload.php');
+    }
+} catch (Exception $e) {
+    echo $e->getMessage();
+    exit;
+}
 require_once(dirname(__DIR__) . '/config/magic.php');
 require_once(ABSPATH . 'wp-settings.php');
