@@ -53,7 +53,7 @@
         "wpackagist-theme/twentyfourteen": "*"
     },
     "scripts": {
-        "post-root-package-install": ["MVPDesign\\WordpressInstaller\\Magic::happens"]
+        "post-create-project-cmd": ["MVPDesign\\WordpressInstaller\\Magic::happens"]
     },
     "extra": {
         "installer-paths": {

@@ -23,7 +23,7 @@ WordPress magic stack
 1. Make sure that composer is within your path
 2. Clone or download this repository
 3. Run `composer install`
-4. Run `composer run post-root-package-install`
+4. Run `composer run post-create-project-cmd`
 5. Follow prompts
 6. Set your vhost path to `/path/to/site/public/`
 7. Visit site url designated during installation to complete the process
