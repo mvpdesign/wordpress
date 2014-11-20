@@ -24,10 +24,11 @@ public/wp-content/wp-cache-config.php
 
 # OSX
 .DS_Store
+Thumbs.db
 
 # IDE
 .idea
 
-# Vendor (e.g. Composer)
+# Composer
 vendor/*
 composer.lock
