@@ -17,6 +17,10 @@ public/wp-content/uploads/
 !public/wp-content/uploads/index.php
 public/wp-content/wp-cache-config.php
 
+### Vagrant
+public/phpmyadmin
+public/.vagrant
+
 # Dotenv
 .env
 .env.*
